@@ -6,21 +6,32 @@
     <title>Corso web developer</title>
     <link rel="stylesheet" href="Esercizio/css/reset.css" />
     <link rel="stylesheet" href="Esercizio/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="
+    
+      
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
-      <div id="logo">
-        <img src="Esercizio/images/logo.png" alt="logo" />
-      </div>
-      <div id="banner">
-        <h1>Corso Web Developer - Epicode school</h1>
-        <h2>
-          Da zero a Epicode con i corsi completi per diventare uno sviluppatore
-          professionista in 3 mesi.
-        </h2>
+      <div id="box-logo">
+        <img src="Esercizio/images/logo.png" alt="logo" id="logo" />
       </div>
     </header>
     <main>
+      <section id="banner">
+        <h1>Corso Web Developer - Epicode school</h1>
+        <p>
+          Da zero a Epicode con i corsi completi per diventare uno sviluppatore
+          professionista in 3 mesi.
+        </p>
+        <button>Partiamo!</button>
+      </section>
       <section>
         <article>
           <h3>Corso Web Developer</h3>
@@ -42,7 +53,14 @@
         </article>
 
         <article>
-          <img src="Esercizio/images/notebook.jpg" alt="computer" />
+          <div class="image">
+            <img
+              src="Esercizio/images/notebook.jpg"
+              alt="computer"
+              id="notebook"
+            />
+          </div>
+
           <h3>Scegli il tuo ruolo</h3>
           <p>Potrai scegliere se essere Azienda, Freelance o Startup.</p>
         </article>
@@ -57,23 +75,25 @@
       <section id="second-section">
         <article>
           <h3>Epicode garantisce</h3>
-          <blockquote>
-            3 mesi intensivi di corso che cambieranno radicalmente la tua vita
-          </blockquote>
-          <p>Mario Rossi</p>
-          <p>CEO, Epicode</p>
+          <p id="quote">
+            "3 mesi intensivi di corso che cambieranno radicalmente la tua vita"
+          </p>
+          <div id="cite">
+            <p>Mario Rossi</p>
+            <p>CEO, Epicode</p>
+          </div>
         </article>
       </section>
-      <section>
+      <aside>
         <article>
-          <img src="Esercizio/images/foto1.jpg" alt="computer" />
+          <img src="Esercizio/images/foto1.jpg" alt="computer" class="image" />
           <h3>Il tuo PC</h3>
           <p>
             Se vuoi diventare developer è l’unico strumento di cui hai bisogno.
           </p>
         </article>
         <article>
-          <img src="Esercizio/images/foto2.jpg" alt="computer" />
+          <img src="Esercizio/images/foto2.jpg" alt="computer" class="image" />
           <h3>Impara ora</h3>
           <p>
             Impara da chi diventerai tra qualche anno, e diventa una rockstar
@@ -81,21 +101,28 @@
           </p>
         </article>
         <article>
-          <img src="Esercizio/images/foto3.jpg" alt="computer" />
+          <img src="Esercizio/images/foto3.jpg" alt="computer" class="image" />
           <h3>Impara ora</h3>
           <p>
             Impara da chi diventerai tra qualche anno, e diventa una rockstar
             come loro.
           </p>
         </article>
-      </section>
+      </aside>
     </main>
     <footer>
       <div id="contatti">
         <h3>Contattaci</h3>
-        <p>(+39) 11223344</p>
-        <a href="#"> <p>info@epicode.it</p></a>
-        <address><p>Via Appia 1 - 00100 Roma (RM)</p></address>
+        <p><i class="fas fa-phone-square-alt"></i>(+39) 11223344</p>
+        <a href="#">
+          <p><i class="fas fa-envelope-square"></i>info@epicode.it</p></a
+        >
+        <address>
+          <p>
+            <i class="fas fa-external-link-square-alt"></i>Via Appia 1 - 00100
+            Roma (RM)
+          </p>
+        </address>
       </div>
       &#169;2021. Immagini di <a href="#">Pixabay.</a>
     </footer>
