@@ -1,0 +1,171 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@300..800&display=swap");
+
+body {
+  font: normal 400 1em "Open Sans", sans-serif;
+  color: #393d41;
+  line-height: 1.65;
+  height: 100vh;
+
+  box-sizing: content-box;
+}
+a {
+  color: #c8e7f0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #25a2c3;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 2em;
+}
+/* impostazioni generali */
+header {
+  background-color: black;
+  width: 100%;
+}
+
+#logo {
+  width: 15%;
+  margin: 2em 0;
+}
+/* header */
+main {
+  width: 100%;
+}
+section {
+  width: 100%;
+}
+#banner {
+  width: 100%;
+  background-image: url("../images/banner.jpg");
+  background-size: 100%;
+  text-align: center;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-bottom: 4em;
+  padding: 2em 0;
+}
+#banner div {
+  width: 30%;
+  margin: 2em auto;
+}
+#banner div button {
+  background-color: #f04c2f;
+  color: white;
+  padding: 1em;
+  border-radius: 16px;
+  margin: 1em;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  width: 150px;
+}
+/* fine banner */
+article {
+  width: 50%;
+  display: inline-block;
+}
+
+aside {
+  margin: 0 auto;
+}
+article h3 {
+  padding: 1em 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#notebook {
+  border-radius: 50%;
+  width: 36%;
+  margin: 0 4em;
+}
+#prima-sezione {
+  display: inline-block;
+  margin: 8em 0;
+}
+#prima-sezione p {
+  text-align: left;
+}
+/* fine prima parte main */
+#second-section {
+  background-color: #e22d0e;
+  color: white;
+  margin: 2em 0;
+  font-family: "Montserrat", sans-serif;
+  padding: 1em 0;
+  text-align: center;
+}
+#second-section h3 {
+  color: white;
+  font-size: 1.5em;
+  padding-bottom: 1em;
+}
+#quote {
+  font-style: italic;
+  font-size: 0.9em;
+}
+#cite {
+  margin: 1em;
+}
+/* aside */
+aside {
+  width: 75%;
+  margin: 0 auto;
+}
+aside article {
+  border: 1px solid #dee1e3;
+  width: 32%;
+  margin: 1em auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+aside article .image {
+  width: 100%;
+  margin: 0;
+  height: 100%;
+}
+aside article h3,
+p {
+  text-align: center;
+}
+.box-image {
+  height: 50%;
+  display: inline-block;
+}
+
+/* fine main */
+footer {
+  background-color: #25a2c3;
+  margin-top: 2em;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+#contatti > h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+}
+#contatti {
+  border-bottom: 1px solid white;
+  width: fit-content;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+#copyright {
+  padding: 1em 0;
+}
